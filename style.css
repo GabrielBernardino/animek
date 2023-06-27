@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,600;1,600&family=Ubuntu:wght@300&display=swap');
+
+        *
+        {
+            list-style: none;
+            margin:0;
+            padding:0;
+            font-family: 'Fira Sans', sans-serif;
+            text-decoration: none;
+        }
+        body
+        {
+            background: linear-gradient(90deg, rgb(25, 1, 131) 0%, rgb(34, 16, 16) 90%) ;
+            margin: 0;
+            padding: 0;
+        }
+
+/*-------------------div-topo-------------------*/
+        .topo
+        {
+            position: fixed;
+            height: 70px;
+            width: 100%;
+            align-items: center;
+            display:flex;
+            padding-left: 250px;
+            justify-content: space-around;
+            background: rgba(255, 255, 255, 0.22);
+            border-radius: 0px 0px 10px 10px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+           
+        }
+/*-------------------div-topo - logo-------------------*/  
+
+        .topo .logo
+        {
+            display: flex;
+            
+        }
+        .topo .logo h1
+        {
+            
+            color: antiquewhite;
+            display: flex;
+            
+        }
+
+/*--------------------div - topo - menu-----------------*/
+
+        .topo .menu
+        {
+            
+            display:flex;
+            
+        }
+        .topo .menu ul
+        {
+            display: flex;
+        }
+        .topo .menu ul li
+        {
+            display: flex;
+            padding: 10px;
+        }
+        .topo .menu ul li a
+        {
+            font-size: 17px;
+            display: flex;
+            text-decoration: none;
+            color:white;
+        }
+
+/*-------------------------------------------Recomendados--------------------------------*/
+        .recomendados-titulo
+        {
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: aliceblue;
+            padding-top: 100px;
+        }
+        .recomendados
+        {
+            padding-top: 30px;
+            display:flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding-right: 50px;
+        }
+        .recomendados .banner .recomendados-caixa
+        {
+            height: 318px;
+            border-radius: 10px 10px 0px 0px;
+            overflow: hidden;
+            background-color: brown;
+        }
+        .recomendados .banner img
+        {
+            max-width: 100%;
+            
+            -moz-transition: all 0.3s;
+            -webkit-transition: all 0.3;
+            transition: all 0.3s;
+        }
+        .recomendados .banner img:hover
+        {
+            
+            -moz-transform: scale(1.1) ;
+            -webkit-transform: scale(1.1);
+            transform: scale(1.05);
+        }
+        .recomendados .banner
+        {
+            padding-left:15px;
+        }
+        .recomendados .banner .nome
+        {
+            
+            color:aliceblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 40px;
+            background-color: rgb(0, 0, 0);
+            border-radius: 0px 0px 10px 10px;
+        }
+
+/*-------------------Lançamentos css ---------------*/
+        .titulo-lancamentos
+        {
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .titulo-lancamentos h1
+        {
+            color:azure;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+        }
+        .lancamentos .caixa .lancamentos-caixa
+        {
+            
+            height:169px;
+            border-radius: 10px 10px 0px 0px;
+            overflow: hidden;
+            background-color: brown;
+        }
+        .lancamentos img
+        {
+            max-width: 100%;
+            
+            -moz-transition: all 0.3s;
+            -webkit-transition: all 0.3;
+            transition: all 0.3s;
+        }
+        .lancamentos img:hover
+        {   
+            -moz-transform: scale(1.1) ;
+            -webkit-transform: scale(1.1);
+            transform: scale(1.05);
+        }
+        .lancamentos
+        {
+            display:flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding-right: 50px;
+        }
+        .lancamentos .caixa
+        {
+            padding-bottom: 15px;
+            justify-content: center;
+            padding-left: 15px;
+        }
+        .lancamentos .caixa a
+        {
+            text-decoration: none;
+        }
+        .lancamentos .caixa .nome
+        {
+            padding-top: 5px;
+            background-color: rgb(0, 0, 0);
+            color:white;
+            display: flex;
+            justify-content: center;
+        }
+        .lancamentos .caixa .episodio
+        {
+            background-color: rgb(0, 0, 0);
+            color:white;
+            display: flex;
+            justify-content: center;
+            border-radius: 0px 0px 10px 10px;
+            padding-top: 3px;
+            padding-bottom: 5px;
+        }
+        .rodape
+        {
+            background: rgba(255, 255, 255, 0.22);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80px;
+            flex-direction: column;
+            
+        }
+        .rodape .logo-rodape h1
+        {
+            color:aliceblue;
+        }
+        .rodape .nome p 
+        {
+            color:aliceblue;
+        }
+       
